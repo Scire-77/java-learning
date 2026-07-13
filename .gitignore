@@ -1,5 +1,23 @@
-.idea/
+# Java / IDE
 target/
+.idea/
 *.iml
 *.log
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+service-account.json
+
+# Spring Boot local secret configuration
+src/main/resources/application-local.yml
+src/main/resources/application-local.yaml
+src/main/resources/application-secret.yml
+src/main/resources/application-secret.yaml
+src/main/resources/application-local.properties
+src/main/resources/application-secret.properties
