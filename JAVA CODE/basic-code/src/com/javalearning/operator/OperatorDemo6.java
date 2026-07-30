@@ -1,0 +1,12 @@
+package com.javalearning.operator;
+
+public class OperatorDemo6 {
+    public static void main(String[] args) {
+        //三元运算符
+        int a = 10;
+        int b = 20;
+        int max = a > b ? a : b;
+        System.out.println(max);
+        // sout(a > b ? a : b);
+    }
+}
