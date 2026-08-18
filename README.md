@@ -19,6 +19,7 @@
 | 2026-08-09 | 面向对象基础 | 类与对象、封装、构造方法、this、标准 JavaBean | `object-oriented-programming_oop` |
 | 2026-08-13 | 进阶语法 | static、final、enum 枚举、工具类 | `oopadvanced` |
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
+| 2026-08-18 | 继承练习 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean | `oop-extends` |
 
 ## 目录结构
 
@@ -30,7 +31,7 @@ Code-learning/
     ├── HelloWorld/                    # 环境入门
     ├── basic-code/                    # Java 基础语法（最大工程，73 个源文件）
     ├── object-oriented-programming_oop/  # 面向对象基础
-    ├── oop-extends/                   # 继承与多态
+    ├── oop-extends/                   # 继承与多态（60 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -74,17 +75,23 @@ Code-learning/
 | `enumtest` | enum 枚举 |
 | `toolclasstest` | 工具类（静态方法封装） |
 
-### 4. 继承与多态 — `oop-extends`（28 个源文件）
+### 4. 继承与多态 — `oop-extends`（60 个源文件）
 
 | 包名 | 主题 |
 |------|------|
-| `oopextendstest1` | 继承的父子类关系 |
-| `oopextendstest2` | 多态（智能设备：Phone / Laptop / Pad / Android / IOS） |
-| `oopextendstest3` | 方法重写与 super |
-| `oopextendstest4` | 三代继承链（构造方法链） |
-| `oopextendstest5` | 综合练习（智能设备） |
-| `oopextendstest6` | 继承与成员访问 |
-| `oopextendstest7` | 综合练习 |
+| `oopextendstest1` | 继承的父子类关系（Person / Student / Teacher） |
+| `oopextendstest2` | 电子设备继承层级（SmartDevice / Phone / Laptop / Android / IOS） |
+| `oopextendstest3` | 继承中成员变量的访问规则（就近原则） |
+| `oopextendstest4` | 方法重写 @Override（三代手机功能演变） |
+| `oopextendstest5` | 继承综合练习（智能设备价格折扣） |
+| `oopextendstest6` | 继承中的构造方法（super() 调用父类构造） |
+| `oopextendstest7` | this() 调用本类构造方法（JavaBean 默认值） |
+| `oopextendstest8` | 带继承结构的标准 JavaBean（学生 / 老师体系） |
+| `oopextendsassignment1` | 继承作业 1：餐饮菜品推荐（经理 / 厨师） |
+| `oopextendsassignment2` | 继承作业 2：公司员工体系（教研 / 行政） |
+| `oopextendsassignment3` | 继承作业 3：餐厅菜品系统（热菜 / 凉菜） |
+| `oopextendsassignment4` | 继承作业 4：电商商品体系（服装 / 电子产品） |
+| `oopextendsassignment5` | 继承作业 5：物流快递运费计算（同城 / 异地） |
 
 ## 学习路线图
 
