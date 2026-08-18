@@ -21,6 +21,7 @@
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
 | 2026-08-18 | 继承练习 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean | `oop-extends` |
 | 2026-08-18 | 多态 | 多态（父类引用指向子类对象）、向上/向下转型、instanceof | `oop-polymorphic` |
+| 2026-08-18 | 抽象类 | 抽象方法、抽象类（Animals / Cat / Dog） | `oop-polymorphic` |
 
 ## 目录结构
 
@@ -33,7 +34,7 @@ Code-learning/
     ├── basic-code/                    # Java 基础语法（最大工程，73 个源文件）
     ├── object-oriented-programming_oop/  # 面向对象基础
     ├── oop-extends/                   # 继承与多态（60 个源文件）
-    ├── oop-polymorphic/              # 多态（15 个源文件）
+    ├── oop-polymorphic/              # 多态与抽象类（19 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -96,7 +97,7 @@ Code-learning/
 | `oopextendsassignment5` | 继承作业 5：物流快递运费计算（同城 / 异地） |
 
 
-### 5. 多态 — `oop-polymorphic`（15 个源文件）
+### 5. 多态与抽象类 — `oop-polymorphic`（19 个源文件）
 
 | 包名 | 主题 |
 |------|------|
@@ -115,6 +116,7 @@ Code-learning/
 - [x] 进阶语法（static / final / enum / 工具类）
 - [x] 继承（方法重写 / super / 多态）
 - [x] 多态（父类引用 / 转型 / instanceof）
+- [x] 抽象类与抽象方法（abstract）
 - [ ] 接口（interface）与抽象类（abstract）
 - [ ] 内部类与常用 API
 - [ ] 集合框架（List / Set / Map）
