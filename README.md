@@ -11,17 +11,14 @@
 | 时间 | 阶段 | 主要内容 | 对应工程 |
 |------|------|----------|----------|
 | 2026-07-13 | 仓库初始化 | README、.gitignore | — |
-| 2026-07-30 | Java 基础 | 字面量、变量、运算符、if 分支、switch | `basic-code` |
-| 2026-07-30 | 流程控制 | for / while / do-while、循环嵌套、控制循环、死循环 | `basic-code` |
+| 2026-07-30 | Java 基础 / 流程控制 | 字面量、变量、运算符、if 分支、switch；for / while / do-while、循环嵌套、控制循环、死循环 | `basic-code` |
 | 2026-08-02 | 数组 | 数组定义、遍历、常见练习 | `basic-code` |
 | 2026-08-03 | 方法 | 方法定义、重载、返回值 | `basic-code` |
 | 2026-08-07 | 算法练习 | 基础算法题练习（6 题） | `basic-code` |
 | 2026-08-09 | 面向对象基础 | 类与对象、封装、构造方法、this、标准 JavaBean | `object-oriented-programming_oop` |
 | 2026-08-13 | 进阶语法 | static、final、enum 枚举、工具类 | `oopadvanced` |
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
-| 2026-08-18 | 继承练习 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean | `oop-extends` |
-| 2026-08-18 | 多态 | 多态（父类引用指向子类对象）、向上/向下转型、instanceof | `oop-polymorphic` |
-| 2026-08-18 | 抽象类 | 抽象方法、抽象类（Animals / Cat / Dog） | `oop-polymorphic` |
+| 2026-08-18 | 继承练习 / 多态 / 抽象类 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean；多态（父类引用指向子类对象）、向上/向下转型、instanceof；抽象方法、抽象类（Animals / Cat / Dog） | `oop-extends、oop-polymorphic` |
 
 ## 目录结构
 
@@ -33,7 +30,7 @@ Code-learning/
     ├── HelloWorld/                    # 环境入门
     ├── basic-code/                    # Java 基础语法（最大工程，73 个源文件）
     ├── object-oriented-programming_oop/  # 面向对象基础
-    ├── oop-extends/                   # 继承与多态（60 个源文件）
+    ├── oop-extends/                   # 继承（60 个源文件）
     ├── oop-polymorphic/              # 多态与抽象类（19 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
@@ -96,7 +93,6 @@ Code-learning/
 | `oopextendsassignment4` | 继承作业 4：电商商品体系（服装 / 电子产品） |
 | `oopextendsassignment5` | 继承作业 5：物流快递运费计算（同城 / 异地） |
 
-
 ### 5. 多态与抽象类 — `oop-polymorphic`（19 个源文件）
 
 | 包名 | 主题 |
@@ -104,6 +100,7 @@ Code-learning/
 | `test1` | 多态基础（学生管理系统，多角色注册） |
 | `test2` | 多态调用规则（成员变量 / 方法、向上向下转型、instanceof） |
 | `test3` | 多态综合练习（Person 驾驶任意交通工具） |
+| `test4` | 抽象类与抽象方法（Animals / Cat / Dog，抽象方法重写） |
 
 ## 学习路线图
 
@@ -117,7 +114,7 @@ Code-learning/
 - [x] 继承（方法重写 / super / 多态）
 - [x] 多态（父类引用 / 转型 / instanceof）
 - [x] 抽象类与抽象方法（abstract）
-- [ ] 接口（interface）与抽象类（abstract）
+- [ ] 接口（interface）
 - [ ] 内部类与常用 API
 - [ ] 集合框架（List / Set / Map）
 - [ ] 异常处理
