@@ -20,6 +20,7 @@
 | 2026-08-13 | 进阶语法 | static、final、enum 枚举、工具类 | `oopadvanced` |
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
 | 2026-08-18 | 继承练习 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean | `oop-extends` |
+| 2026-08-18 | 多态 | 多态（父类引用指向子类对象）、向上/向下转型、instanceof | `oop-polymorphic` |
 
 ## 目录结构
 
@@ -32,6 +33,7 @@ Code-learning/
     ├── basic-code/                    # Java 基础语法（最大工程，73 个源文件）
     ├── object-oriented-programming_oop/  # 面向对象基础
     ├── oop-extends/                   # 继承与多态（60 个源文件）
+    ├── oop-polymorphic/              # 多态（15 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -93,6 +95,15 @@ Code-learning/
 | `oopextendsassignment4` | 继承作业 4：电商商品体系（服装 / 电子产品） |
 | `oopextendsassignment5` | 继承作业 5：物流快递运费计算（同城 / 异地） |
 
+
+### 5. 多态 — `oop-polymorphic`（15 个源文件）
+
+| 包名 | 主题 |
+|------|------|
+| `test1` | 多态基础（学生管理系统，多角色注册） |
+| `test2` | 多态调用规则（成员变量 / 方法、向上向下转型、instanceof） |
+| `test3` | 多态综合练习（Person 驾驶任意交通工具） |
+
 ## 学习路线图
 
 - [x] Java 开发环境搭建（HelloWorld）
@@ -103,6 +114,7 @@ Code-learning/
 - [x] 面向对象基础（封装 / 构造 / this / JavaBean）
 - [x] 进阶语法（static / final / enum / 工具类）
 - [x] 继承（方法重写 / super / 多态）
+- [x] 多态（父类引用 / 转型 / instanceof）
 - [ ] 接口（interface）与抽象类（abstract）
 - [ ] 内部类与常用 API
 - [ ] 集合框架（List / Set / Map）
