@@ -19,6 +19,7 @@
 | 2026-08-13 | 进阶语法 | static、final、enum 枚举、工具类 | `oopadvanced` |
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
 | 2026-08-18 | 继承练习 / 多态 / 抽象类 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean；多态（父类引用指向子类对象）、向上/向下转型、instanceof；抽象方法、抽象类（Animals / Cat / Dog） | `oop-extends、oop-polymorphic` |
+| 2026-08-19 | 接口 | 接口定义与实现、接口多继承、JDK8+ 默认/静态/私有方法 | `oop-interface` |
 
 ## 目录结构
 
@@ -32,6 +33,7 @@ Code-learning/
     ├── object-oriented-programming_oop/  # 面向对象基础
     ├── oop-extends/                   # 继承（60 个源文件）
     ├── oop-polymorphic/              # 多态与抽象类（19 个源文件）
+    ├── oop-interface/              # 接口与抽象类（29 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -102,6 +104,16 @@ Code-learning/
 | `test3` | 多态综合练习（Person 驾驶任意交通工具） |
 | `test4` | 抽象类与抽象方法（Animals / Cat / Dog，抽象方法重写） |
 
+### 6. 接口 — `oop-interface`（29 个源文件）
+
+| 包名 | 主题 |
+|------|------|
+| `test1` | 接口定义与实现（Inter1~3、swim，青蛙 / 狗 / 兔子） |
+| `test2` | 接口与抽象类综合（运动员 / 教练 / 人员体系） |
+| `test3` | JDK8 接口默认方法（default） |
+| `test4` | JDK8 接口静态方法（static） |
+| `test5` | JDK9 接口私有方法（private） |
+
 ## 学习路线图
 
 - [x] Java 开发环境搭建（HelloWorld）
@@ -114,7 +126,7 @@ Code-learning/
 - [x] 继承（方法重写 / super / 多态）
 - [x] 多态（父类引用 / 转型 / instanceof）
 - [x] 抽象类与抽象方法（abstract）
-- [ ] 接口（interface）
+- [x] 接口（interface）
 - [ ] 内部类与常用 API
 - [ ] 集合框架（List / Set / Map）
 - [ ] 异常处理
