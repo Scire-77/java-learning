@@ -20,6 +20,7 @@
 | 2026-08-15 | 继承 | 继承、方法重写、super、多态 | `oop-extends` |
 | 2026-08-18 | 继承练习 / 多态 / 抽象类 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean；多态（父类引用指向子类对象）、向上/向下转型、instanceof；抽象方法、抽象类（Animals / Cat / Dog） | `oop-extends、oop-polymorphic` |
 | 2026-08-19 | 接口 | 接口定义与实现、接口多继承、JDK8+ 默认/静态/私有方法 | `oop-interface` |
+| 2026-08-21 | 内部类 | 成员内部类、静态内部类、局部内部类、匿名内部类 | `oop-innerclass` |
 
 ## 目录结构
 
@@ -34,6 +35,7 @@ Code-learning/
     ├── oop-extends/                   # 继承（60 个源文件）
     ├── oop-polymorphic/              # 多态与抽象类（19 个源文件）
     ├── oop-interface/              # 接口与抽象类（29 个源文件）
+    ├── oop-innerclass/             # 内部类（9 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -114,6 +116,15 @@ Code-learning/
 | `test4` | JDK8 接口静态方法（static） |
 | `test5` | JDK9 接口私有方法（private） |
 
+### 7. 内部类 — `oop-innerclass`（9 个源文件）
+
+| 包名 | 主题 |
+|------|------|
+| `innerclassdemo1` | 成员内部类（创建方式、外部类方法提供对象） |
+| `innerclassdemo2` | 静态内部类（静态 / 非静态成员访问规则） |
+| `innerclassdemo3` | 局部内部类（定义在方法内） |
+| `innerclassdemo4` | 匿名内部类（实现接口，lambda 前置知识） |
+
 ## 学习路线图
 
 - [x] Java 开发环境搭建（HelloWorld）
@@ -127,7 +138,8 @@ Code-learning/
 - [x] 多态（父类引用 / 转型 / instanceof）
 - [x] 抽象类与抽象方法（abstract）
 - [x] 接口（interface）
-- [ ] 内部类与常用 API
+- [x] 内部类（成员 / 静态 / 局部 / 匿名）
+- [ ] 常用 API
 - [ ] 集合框架（List / Set / Map）
 - [ ] 异常处理
 - [ ] IO 流
