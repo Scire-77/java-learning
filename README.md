@@ -21,6 +21,7 @@
 | 2026-08-18 | 继承练习 / 多态 / 抽象类 | 继承综合作业（餐饮 / 员工 / 菜品 / 电商 / 物流）、带继承的 JavaBean；多态（父类引用指向子类对象）、向上/向下转型、instanceof；抽象方法、抽象类（Animals / Cat / Dog） | `oop-extends、oop-polymorphic` |
 | 2026-08-19 | 接口 | 接口定义与实现、接口多继承、JDK8+ 默认/静态/私有方法 | `oop-interface` |
 | 2026-08-21 | 内部类 | 成员内部类、静态内部类、局部内部类、匿名内部类 | `oop-innerclass` |
+| 2026-08-22 | 常用 API | String 创建与比较、遍历、截取/替换、StringBuilder | `api-string` |
 
 ## 目录结构
 
@@ -36,6 +37,7 @@ Code-learning/
     ├── oop-polymorphic/              # 多态与抽象类（19 个源文件）
     ├── oop-interface/              # 接口与抽象类（29 个源文件）
     ├── oop-innerclass/             # 内部类（9 个源文件）
+    ├── api-string/                # 常用 API（String / StringBuilder，11 个源文件）
     └── oopadvanced/                   # 进阶语法
 ```
 
@@ -125,6 +127,18 @@ Code-learning/
 | `innerclassdemo3` | 局部内部类（定义在方法内） |
 | `innerclassdemo4` | 匿名内部类（实现接口，lambda 前置知识） |
 
+### 8. 常用 API — `api-string`（11 个源文件）
+
+| 包名 | 主题 |
+|------|------|
+| `apidemo1` | String 概述与构造方法（直接赋值 / new 四种构造） |
+| `apidemo2` | String 比较（equals / equalsIgnoreCase，模拟用户登录） |
+| `apidemo3` | String 遍历（charAt / length，ArrayUtil 工具类） |
+| `apidemo4` | String 截取（substring，数据脱敏） |
+| `apidemo5` | String 替换（replace，数据过滤） |
+| `apidemo6` | String 其他常用方法（contains / startsWith / indexOf 等） |
+| `apidemo7` | StringBuilder（append / reverse，拼接性能对比） |
+
 ## 学习路线图
 
 - [x] Java 开发环境搭建（HelloWorld）
@@ -139,7 +153,7 @@ Code-learning/
 - [x] 抽象类与抽象方法（abstract）
 - [x] 接口（interface）
 - [x] 内部类（成员 / 静态 / 局部 / 匿名）
-- [ ] 常用 API
+- [x] 常用 API（String / StringBuilder）
 - [ ] 集合框架（List / Set / Map）
 - [ ] 异常处理
 - [ ] IO 流
